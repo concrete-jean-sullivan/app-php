@@ -1,0 +1,58 @@
+[Fri Nov 03 12:14:24.763574 2017] [mpm_prefork:notice] [pid 38] AH00163: Apache/2.4.27 (Unix) PHP/5.6.31 configured -- resuming normal operations
+[Fri Nov 03 12:14:24.768457 2017] [core:notice] [pid 38] AH00094: Command line: '/usr/sbin/httpd -D NO_DETACH -f /web/config/httpd.conf'
+[Fri Nov 03 12:29:17.904837 2017] [:error] [pid 47] [client 172.19.0.1:39184] PHP Warning:  mysql_connect(): php_network_getaddresses: getaddrinfo failed: Name does not resolve in /web/html/functions.php on line 4
+[Fri Nov 03 12:29:17.906274 2017] [:error] [pid 47] [client 172.19.0.1:39184] PHP Warning:  mysql_connect(): php_network_getaddresses: getaddrinfo failed: Name does not resolve in /web/html/functions.php on line 4
+[Fri Nov 03 12:29:17.906546 2017] [:error] [pid 47] [client 172.19.0.1:39184] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /web/html/functions.php on line 5
+[Fri Nov 03 12:29:17.906770 2017] [:error] [pid 47] [client 172.19.0.1:39184] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /web/html/functions.php on line 7
+[Fri Nov 03 12:29:31.258084 2017] [:error] [pid 45] [client 172.19.0.1:39186] PHP Warning:  mysql_connect(): php_network_getaddresses: getaddrinfo failed: Name does not resolve in /web/html/functions.php on line 4
+[Fri Nov 03 12:29:31.258498 2017] [:error] [pid 45] [client 172.19.0.1:39186] PHP Warning:  mysql_connect(): php_network_getaddresses: getaddrinfo failed: Name does not resolve in /web/html/functions.php on line 4
+[Fri Nov 03 12:29:31.258760 2017] [:error] [pid 45] [client 172.19.0.1:39186] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /web/html/functions.php on line 5
+[Fri Nov 03 12:29:31.258966 2017] [:error] [pid 45] [client 172.19.0.1:39186] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /web/html/functions.php on line 7
+[Fri Nov 03 12:29:40.256044 2017] [:error] [pid 53] [client 172.19.0.1:39188] PHP Warning:  mysql_connect(): php_network_getaddresses: getaddrinfo failed: Name does not resolve in /web/html/functions.php on line 4
+[Fri Nov 03 12:29:40.256399 2017] [:error] [pid 53] [client 172.19.0.1:39188] PHP Warning:  mysql_connect(): php_network_getaddresses: getaddrinfo failed: Name does not resolve in /web/html/functions.php on line 4
+[Fri Nov 03 12:29:40.256643 2017] [:error] [pid 53] [client 172.19.0.1:39188] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /web/html/functions.php on line 5
+[Fri Nov 03 12:29:40.256831 2017] [:error] [pid 53] [client 172.19.0.1:39188] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /web/html/functions.php on line 7
+[Fri Nov 03 12:34:55.570190 2017] [:error] [pid 48] [client 172.19.0.1:39430] PHP Notice:  Undefined index: coluna1 in /web/html/functions.php on line 14
+[Fri Nov 03 12:34:55.570545 2017] [:error] [pid 48] [client 172.19.0.1:39430] PHP Notice:  Undefined index: coluna2 in /web/html/functions.php on line 14
+[Fri Nov 03 12:35:20.302284 2017] [:error] [pid 46] [client 172.19.0.1:39436] PHP Notice:  Undefined index: coluna2 in /web/html/functions.php on line 14
+[Fri Nov 03 12:43:07.790004 2017] [:error] [pid 44] [client 172.19.0.1:39564] PHP Notice:  Undefined index: id in /web/html/functions.php on line 16
+[Fri Nov 03 12:43:07.790278 2017] [:error] [pid 44] [client 172.19.0.1:39564] PHP Notice:  Undefined index: id in /web/html/functions.php on line 16
+[Fri Nov 03 12:56:20.980937 2017] [:error] [pid 53] [client 172.19.0.1:39678] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /web/html/functions.php on line 28, referer: http://localhost/
+[Fri Nov 03 12:57:01.423035 2017] [:error] [pid 56] [client 172.19.0.1:39682] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /web/html/functions.php on line 28
+[Fri Nov 03 12:57:03.053763 2017] [:error] [pid 48] [client 172.19.0.1:39684] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /web/html/functions.php on line 28
+[Fri Nov 03 12:57:06.108214 2017] [:error] [pid 46] [client 172.19.0.1:39686] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /web/html/functions.php on line 28
+[Fri Nov 03 12:57:16.517778 2017] [:error] [pid 47] [client 172.19.0.1:39688] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /web/html/functions.php on line 28
+[Fri Nov 03 12:57:21.087211 2017] [:error] [pid 45] [client 172.19.0.1:39690] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /web/html/functions.php on line 28
+[Fri Nov 03 12:57:32.477045 2017] [:error] [pid 46] [client 172.19.0.1:39702] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /web/html/functions.php on line 28
+[Fri Nov 03 12:57:38.548767 2017] [:error] [pid 47] [client 172.19.0.1:39700] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /web/html/functions.php on line 28
+[Fri Nov 03 12:57:39.831598 2017] [:error] [pid 45] [client 172.19.0.1:39704] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /web/html/functions.php on line 28
+[Fri Nov 03 13:00:43.973591 2017] [:error] [pid 47] [client 172.19.0.1:39744] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:00:43.973879 2017] [:error] [pid 47] [client 172.19.0.1:39744] PHP Notice:  Undefined index: name in /web/html/index.php on line 7
+[Fri Nov 03 13:00:45.507430 2017] [:error] [pid 47] [client 172.19.0.1:39744] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:00:45.507787 2017] [:error] [pid 47] [client 172.19.0.1:39744] PHP Notice:  Undefined index: name in /web/html/index.php on line 7
+[Fri Nov 03 13:00:56.022441 2017] [:error] [pid 45] [client 172.19.0.1:39750] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:00:58.865044 2017] [:error] [pid 45] [client 172.19.0.1:39750] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:01:04.724585 2017] [:error] [pid 45] [client 172.19.0.1:39750] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:02:27.089805 2017] [:error] [pid 44] [client 172.19.0.1:39772] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:02:47.474388 2017] [:error] [pid 56] [client 172.19.0.1:39778] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:03:30.142994 2017] [:error] [pid 53] [client 172.19.0.1:39852] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:04:09.719032 2017] [:error] [pid 48] [client 172.19.0.1:39856] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:04:41.067049 2017] [:error] [pid 44] [client 172.19.0.1:39868] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:06:15.993507 2017] [:error] [pid 56] [client 172.19.0.1:39872] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:08:01.947217 2017] [:error] [pid 53] [client 172.19.0.1:39876] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:08:04.019573 2017] [:error] [pid 53] [client 172.19.0.1:39876] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:08:11.080259 2017] [:error] [pid 48] [client 172.19.0.1:39882] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:08:28.420734 2017] [:error] [pid 46] [client 172.19.0.1:39886] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:10:26.592266 2017] [:error] [pid 47] [client 172.19.0.1:39890] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /web/html/index.php on line 39
+[Fri Nov 03 13:10:35.312097 2017] [:error] [pid 45] [client 172.19.0.1:39892] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:11:56.467588 2017] [:error] [pid 44] [client 172.19.0.1:39896] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:12:05.642525 2017] [:error] [pid 56] [client 172.19.0.1:39900] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:12:13.565475 2017] [:error] [pid 53] [client 172.19.0.1:39904] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:16:41.762491 2017] [:error] [pid 46] [client 172.19.0.1:39942] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:17:40.650893 2017] [:error] [pid 47] [client 172.19.0.1:39946] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 13:18:04.564416 2017] [core:notice] [pid 38] AH00052: child pid 47 exit signal Segmentation fault (11)
+[Fri Nov 03 13:18:04.648219 2017] [mpm_prefork:notice] [pid 38] AH00169: caught SIGTERM, shutting down
+[Fri Nov 03 17:40:04.314538 2017] [mpm_prefork:notice] [pid 22] AH00163: Apache/2.4.27 (Unix) PHP/5.6.31 configured -- resuming normal operations
+[Fri Nov 03 17:40:04.315928 2017] [core:notice] [pid 22] AH00094: Command line: '/usr/sbin/httpd -D NO_DETACH -f /web/config/httpd.conf'
+[Fri Nov 03 17:40:42.525128 2017] [:error] [pid 29] [client 172.19.0.1:43280] PHP Notice:  Undefined index: name in /web/html/index.php on line 6
+[Fri Nov 03 17:44:53.469352 2017] [mpm_prefork:notice] [pid 22] AH00169: caught SIGTERM, shutting down

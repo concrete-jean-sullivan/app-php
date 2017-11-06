@@ -1,0 +1,41 @@
+version: '2'
+
+services:
+    web:
+        image: concreterenatoruis/alpine-apache-php:latest
+        restart: always
+        container_name: app-nginx
+        ports:
+            - "80:80"
+        volumes:
+            - ./code:/web
+        networks:
+            - net-app
+    db:
+        image: concreterenatoruis/mariadb:latest
+        container_name: app-db
+        restart: always
+        ports:
+            - "3306"
+        volumes:
+            - ./bd:/var/lib/mysql
+        environment:
+            - MYSQL_ROOT_PASSWORD=root
+            - MYSQL_DATABASE=db
+            - MYSQL_USER=db
+            - MYSQL_PASSWORD=db
+        networks: 
+            - net-app
+    phpmyadmin:
+        image: concreterenatoruis/phpmyadmin:latest
+        container_name: app-phpmyadmin
+        restart: always
+        ports:
+            - "81:80"
+        networks: 
+            - net-app
+        environment:
+            - PMA_ARBITRARY=1
+networks:
+    net-app:
+        driver: bridge

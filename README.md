@@ -1,5 +1,5 @@
 # app-php
-Simple app with php-mysql
+This is a Simple app with php-mysql
 
 :)
 :)
